@@ -1,0 +1,2 @@
+# Depends: cache
+LoadModule file_cache_module /opt/puppet/lib/httpd/modules/mod_file_cache.so

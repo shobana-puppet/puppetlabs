@@ -1,0 +1,1 @@
+LoadModule dbd_module /opt/puppet/lib/httpd/modules/mod_dbd.so

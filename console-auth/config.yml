@@ -1,0 +1,14 @@
+smtp:
+  address: smtp.gmail.com
+  port: 25
+  use_tls: false
+  ## Uncomment to enable SMTP authentication
+  #username:  smtp_username
+  #password:  smtp_password
+activation:
+  ## Configurable in days, 0 means infinite
+  freshness_period: 0
+password:
+  min_length: 8
+authentication:
+  console_hostname: ip-10-224-3-144.us-west-2.compute.internal

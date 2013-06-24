@@ -1,0 +1,1 @@
+LoadModule dir_module /opt/puppet/lib/httpd/modules/mod_dir.so

@@ -1,0 +1,1 @@
+LoadModule alias_module /opt/puppet/lib/httpd/modules/mod_alias.so

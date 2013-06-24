@@ -1,0 +1,6 @@
+production:
+  adapter: mysql
+  database: console_auth
+  timeout: 5000
+  username: console_auth
+  password: '1N1nQtV2hq3rQZowBJgK'

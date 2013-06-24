@@ -1,0 +1,33 @@
+# envvars - default environment variables for apache2ctl
+
+# this won't be correct after changing uid
+unset HOME
+
+# for supporting multiple apache2 instances
+if [ "${APACHE_CONFDIR##/etc/puppetlabs/httpd-}" != "${APACHE_CONFDIR}" ] ; then
+	SUFFIX="-${APACHE_CONFDIR##/etc/puppetlabs/httpd-}"
+else
+	SUFFIX=
+fi
+
+# Since there is no sane way to get the parsed apache2 config in scripts, some
+# settings are defined via environment variables and then used in apache2ctl,
+# /etc/init.d/pe-httpd, /etc/logrotate.d/pe-httpd, etc.
+export APACHE_RUN_USER=www-data
+export APACHE_RUN_GROUP=www-data
+export APACHE_PID_FILE=/var/run/pe-httpd$SUFFIX.pid
+export APACHE_RUN_DIR=/var/run/pe-httpd$SUFFIX
+export APACHE_LOCK_DIR=/var/lock/pe-httpd$SUFFIX
+# Only /var/log/pe-httpd is handled by /etc/logrotate.d/pe-httpd.
+export APACHE_LOG_DIR=/var/log/pe-httpd$SUFFIX
+
+## The locale used by some modules like mod_dav
+export LANG=C
+## Uncomment the following line to use the system default locale instead:
+#. /etc/default/locale
+
+export LANG
+
+## The command to get the status for 'pe-httpdctl status'.
+## Some packages providing 'www-browser' need '--dump' instead of '-dump'.
+#export APACHE_LYNX='www-browser -dump'

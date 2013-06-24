@@ -1,0 +1,2 @@
+# Depends: cache
+LoadModule disk_cache_module /opt/puppet/lib/httpd/modules/mod_disk_cache.so

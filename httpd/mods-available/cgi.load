@@ -1,0 +1,1 @@
+LoadModule cgi_module /opt/puppet/lib/httpd/modules/mod_cgi.so

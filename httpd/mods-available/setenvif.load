@@ -1,0 +1,1 @@
+LoadModule setenvif_module /opt/puppet/lib/httpd/modules/mod_setenvif.so

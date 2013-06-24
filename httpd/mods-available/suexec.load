@@ -1,0 +1,1 @@
+LoadModule suexec_module /opt/puppet/lib/httpd/modules/mod_suexec.so

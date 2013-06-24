@@ -1,0 +1,1 @@
+LoadModule auth_digest_module /opt/puppet/lib/httpd/modules/mod_auth_digest.so

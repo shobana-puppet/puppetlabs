@@ -1,0 +1,15 @@
+common: &common
+    database: console
+    username: console
+    password: 'UvvM7AlVY2uLoDKJK1p4'
+    adapter: mysql
+
+development:
+    <<: *common
+
+production:
+    <<: *common
+
+test:
+    database: console_test
+    <<: *common

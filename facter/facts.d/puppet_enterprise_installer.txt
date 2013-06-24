@@ -1,0 +1,7 @@
+fact_stomp_port=61613
+fact_stomp_server=10.224.3.144
+fact_is_puppetagent=true
+fact_is_puppetmaster=true
+fact_is_puppetca=true
+fact_is_puppetconsole=true
+fact_puppetmaster_certname=10.224.3.144

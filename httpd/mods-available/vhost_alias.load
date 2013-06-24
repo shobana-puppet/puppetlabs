@@ -1,0 +1,1 @@
+LoadModule vhost_alias_module /opt/puppet/lib/httpd/modules/mod_vhost_alias.so

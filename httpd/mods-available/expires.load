@@ -1,0 +1,1 @@
+LoadModule expires_module /opt/puppet/lib/httpd/modules/mod_expires.so

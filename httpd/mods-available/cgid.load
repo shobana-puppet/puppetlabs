@@ -1,0 +1,1 @@
+LoadModule cgid_module /opt/puppet/lib/httpd/modules/mod_cgid.so
