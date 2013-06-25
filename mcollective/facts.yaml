@@ -1,98 +1,98 @@
 --- 
-  ec2_placement_availability_zone: us-west-2b
-  ec2_local_hostname: ip-10-224-3-144.us-west-2.compute.internal
-  arp: "fe:ff:ff:ff:ff:ff"
-  is_pe: true
-  puppetversion: "2.7.21 (Puppet Enterprise 2.8.2)"
-  lsbdistid: Ubuntu
-  mtu_lo: "16436"
-  root_home: /root
-  arp_eth0: "fe:ff:ff:ff:ff:ff"
-  ec2_block_device_mapping_ami: /dev/sda1
-  swapsize: "896.00 MB"
-  memorysize: "1.61 GB"
-  pe_minor_version: "8"
-  ec2_ami_manifest_path: "(unknown)"
-  uniqueid: e00a9003
-  lsbdistcodename: precise
-  uptime_days: 0
-  sshecdsakey: "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOHO+i9dsZsCgKpPQGB7qNmmy0ekHYwcXqcakqK/e83d86XOqqCB+Nk/VSPVIW8NvuWI/qR1dKxNRMdi4xK+i5w="
-  ec2_profile: default-paravirtual
-  kernelversion: "3.2.0"
-  fqdn: ip-10-224-3-144.us-west-2.compute.internal
-  ec2_hostname: ip-10-224-3-144.us-west-2.compute.internal
-  ec2_public_keys_0_openssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1kCj2z+InNh1ZXyp1osE2nuYTI2mD7RaZNgJqL9B4YcVFzllnPsrV81CyM+AVgYJ7O9/1fWLWRGWgGhqNjDhFtNOxGPdx0COyNsM8IfxQA3unn2/kNXTcwucY7oeh25f2VMzQqFFivmNwQ6Z3tZ8ZXRHQVVF+4BkXQamr81TYQ3caiwmMfOL5mU7BdHgpiZi0sVR9tMU9SFGwTglXwz2JAjBtjrx+M1WyBOTZOf7l1+OhW62EejmXL9fOoSwIA54+4OFhD2fr1pVfcZym+apd4hJTREJjdk6dN8KE6oDgGoVPvcbVMxs4ECxVXejfblrP5Ka2v//uU5likMr4PPTX shobu_key1"
-  ec2_instance_id: i-c47747f1
-  custom_auth_conf: "false"
-  network_lo: "127.0.0.0"
-  ipaddress: "10.224.3.144"
-  rubyversion: "1.8.7"
+  virtual: physical
+  ec2_block_device_mapping_root: /dev/sda1
+  fact_is_puppetagent: "true"
   facterversion: "1.6.17"
+  ec2_block_device_mapping_ami: /dev/sda1
+  is_virtual: "false"
+  ec2_hostname: ip-10-224-3-144.us-west-2.compute.internal
+  fact_is_puppetconsole: "true"
+  hardwaremodel: x86_64
+  is_pe: true
+  fact_puppetmaster_certname: "10.224.3.144"
+  ec2_ami_manifest_path: "(unknown)"
+  mtu_lo: "16436"
+  sshrsakey: "AAAAB3NzaC1yc2EAAAADAQABAAABAQCiOXCaAkHFLSJPOmK3h/To17m8W7fywd+r+ol9rdC2Ff288XKqKMBaT9xOsRWLV45qb5xu6kHXsJ8NFnt7DbTUWCbTAZFkOBhM8RvjzXGJK6xtbhRqiV3GdU9DLJC9cWitUn8Gh8Lv0U3vsjn2ZMRz+sLsqUFkmRAmJ/b0XNCjxi5W0D0aFm2GXR4u5e8dpCXag3lIhKKIdQ5lQwZWu6ltMOqW2TgiqkdJQLT6jCXYben9/1q4MnsevmXPCiEXOuTE479vTRsQMNwcNPXDkMqbK12IzxjU5j/0hNqakHdNOkoKq9Ukmi04D8thwm35zOwFgNElAMfHZ7vLaX7zt7Ux"
+  macaddress: "22:00:0a:e0:03:90"
+  processor0: "Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz"
+  lsbdistid: Ubuntu
+  timezone: UTC
+  fqdn: ip-10-224-3-144.us-west-2.compute.internal
+  osfamily: Debian
+  ipaddress_eth0: "10.224.3.144"
+  ec2_public_keys_0_openssh_key: "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1kCj2z+InNh1ZXyp1osE2nuYTI2mD7RaZNgJqL9B4YcVFzllnPsrV81CyM+AVgYJ7O9/1fWLWRGWgGhqNjDhFtNOxGPdx0COyNsM8IfxQA3unn2/kNXTcwucY7oeh25f2VMzQqFFivmNwQ6Z3tZ8ZXRHQVVF+4BkXQamr81TYQ3caiwmMfOL5mU7BdHgpiZi0sVR9tMU9SFGwTglXwz2JAjBtjrx+M1WyBOTZOf7l1+OhW62EejmXL9fOoSwIA54+4OFhD2fr1pVfcZym+apd4hJTREJjdk6dN8KE6oDgGoVPvcbVMxs4ECxVXejfblrP5Ka2v//uU5likMr4PPTX shobu_key1"
+  ec2_profile: default-paravirtual
+  arp: "fe:ff:ff:ff:ff:ff"
+  path: "/usr/bin:/bin:/usr/sbin:/sbin"
+  uptime_hours: 23
   ec2_ami_launch_index: "0"
+  ec2_instance_id: i-c47747f1
+  memorysize: "1.61 GB"
+  fact_stomp_server: "10.224.3.144"
+  ec2_instance_type: m1.small
+  kernelversion: "3.2.0"
+  ec2_local_ipv4: "10.224.3.144"
+  ec2_public_ipv4: "54.214.22.147"
+  ec2_public_hostname: ec2-54-214-22-147.us-west-2.compute.amazonaws.com
+  pe_patch_version: "2"
+  ipaddress_lo: "127.0.0.1"
+  rubyversion: "1.8.7"
+  network_eth0: "10.224.3.128"
   kernel: Linux
+  uptime: "23:20 hours"
+  uptime_days: 0
+  ec2_reservation_id: r-fe8e2ccb
+  hostname: ip-10-224-3-144
+  ipaddress: "10.224.3.144"
+  ec2_block_device_mapping_swap: sda3
+  ec2_ami_id: ami-70f96e40
+  lsbdistrelease: "12.04"
+  fact_stomp_port: "61613"
+  macaddress_eth0: "22:00:0a:e0:03:90"
+  kernelrelease: "3.2.0-40-virtual"
+  network_lo: "127.0.0.0"
+  mtu_eth0: "1500"
+  uniqueid: e00a9003
+  selinux: "false"
+  operatingsystemrelease: "12.04"
+  netmask: "255.255.255.192"
+  netmask_lo: "255.0.0.0"
+  fact_is_puppetmaster: "true"
+  sshdsakey: "AAAAB3NzaC1kc3MAAACBAPtMsmTNZpII28QckdjtrsCn4tnYMYfV3SV5mxgHt3TSfayCi3/Wa09aZ/nk7X425njseWqaxvKf4mq8NeEH8Vi9Vdg3d5jzW4b3Fs+ULYGJdBDjXMa+q+USllWNkCq0pXQU81MU6o7q9XZu8uctB9NQxilHburXbGd013ifa+InAAAAFQDeCxHbWGGLI7A088yQ43x0j9eO9wAAAIEA0Wm/8/fJs3roX7pgwBvRhsYRTwI7mwQXC18qs4MsIAWaL9gR4ymy9KwjkTgImgVcQAEkt8FBsMS8RUeZJnoYLhniP2TeS5RcxngiNyEpfHhk9JcSgoz/dqrspGRGsbayTX0is0fD0HX7G8L/Lk7j4+zWzetpeGxngnwGHOX1xs0AAACBAJxo+XHxul23SjVmI5y7hWRMzzP4mnftHR2tdGPbiXeCdAEWm3Ly+SlHUFA1CLGONG9mh0I7VBsBN2nZJv4qyEGNaAXIDzjwulxUesN17c6/m22vYjnQrLbfrr1mmdid0c1T8wJBGxcv4tQ4LeWGGJXdPevKpNeUZUpNn3bQWrHp"
+  operatingsystem: Ubuntu
+  puppetversion: "2.7.21 (Puppet Enterprise 2.8.2)"
+  netmask_eth0: "255.255.255.192"
+  kernelmajversion: "3.2"
+  pe_minor_version: "8"
+  puppet_vardir: /var/opt/lib/pe-puppet
+  hardwareisa: x86_64
+  rubysitedir: /opt/puppet/lib/site_ruby/1.8
+  custom_auth_conf: "false"
+  ec2_placement_availability_zone: us-west-2b
+  interfaces: "eth0,lo"
+  lsbdistcodename: precise
+  memorytotal: "1.61 GB"
+  augeasversion: "0.10.0"
+  ec2_local_hostname: ip-10-224-3-144.us-west-2.compute.internal
+  ec2_security_groups: default
+  physicalprocessorcount: 1
+  ec2_block_device_mapping_ephemeral0: sdb
+  lsbmajdistrelease: "12"
+  sshecdsakey: "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOHO+i9dsZsCgKpPQGB7qNmmy0ekHYwcXqcakqK/e83d86XOqqCB+Nk/VSPVIW8NvuWI/qR1dKxNRMdi4xK+i5w="
+  root_home: /root
+  uptime_seconds: 84037
+  ps: "ps -ef"
+  pe_version: "2.8.2"
+  memoryfree: "278.59 MB"
+  architecture: amd64
+  fact_is_puppetca: "true"
+  arp_eth0: "fe:ff:ff:ff:ff:ff"
   concat_basedir: /var/opt/lib/pe-puppet/concat
   lsbdistdescription: "Ubuntu 12.04.2 LTS"
-  swapfree: "895.75 MB"
-  processorcount: "1"
-  mtu_eth0: "1500"
-  memoryfree: "836.19 MB"
-  netmask: "255.255.255.192"
-  ec2_reservation_id: r-fe8e2ccb
-  sshdsakey: "AAAAB3NzaC1kc3MAAACBAPtMsmTNZpII28QckdjtrsCn4tnYMYfV3SV5mxgHt3TSfayCi3/Wa09aZ/nk7X425njseWqaxvKf4mq8NeEH8Vi9Vdg3d5jzW4b3Fs+ULYGJdBDjXMa+q+USllWNkCq0pXQU81MU6o7q9XZu8uctB9NQxilHburXbGd013ifa+InAAAAFQDeCxHbWGGLI7A088yQ43x0j9eO9wAAAIEA0Wm/8/fJs3roX7pgwBvRhsYRTwI7mwQXC18qs4MsIAWaL9gR4ymy9KwjkTgImgVcQAEkt8FBsMS8RUeZJnoYLhniP2TeS5RcxngiNyEpfHhk9JcSgoz/dqrspGRGsbayTX0is0fD0HX7G8L/Lk7j4+zWzetpeGxngnwGHOX1xs0AAACBAJxo+XHxul23SjVmI5y7hWRMzzP4mnftHR2tdGPbiXeCdAEWm3Ly+SlHUFA1CLGONG9mh0I7VBsBN2nZJv4qyEGNaAXIDzjwulxUesN17c6/m22vYjnQrLbfrr1mmdid0c1T8wJBGxcv4tQ4LeWGGJXdPevKpNeUZUpNn3bQWrHp"
-  netmask_eth0: "255.255.255.192"
-  ec2_block_device_mapping_ephemeral0: sdb
-  uptime: "0:50 hours"
-  ec2_public_ipv4: "54.214.22.147"
-  hostname: ip-10-224-3-144
-  interfaces: "eth0,lo"
-  ipaddress_eth0: "10.224.3.144"
-  sshrsakey: "AAAAB3NzaC1yc2EAAAADAQABAAABAQCiOXCaAkHFLSJPOmK3h/To17m8W7fywd+r+ol9rdC2Ff288XKqKMBaT9xOsRWLV45qb5xu6kHXsJ8NFnt7DbTUWCbTAZFkOBhM8RvjzXGJK6xtbhRqiV3GdU9DLJC9cWitUn8Gh8Lv0U3vsjn2ZMRz+sLsqUFkmRAmJ/b0XNCjxi5W0D0aFm2GXR4u5e8dpCXag3lIhKKIdQ5lQwZWu6ltMOqW2TgiqkdJQLT6jCXYben9/1q4MnsevmXPCiEXOuTE479vTRsQMNwcNPXDkMqbK12IzxjU5j/0hNqakHdNOkoKq9Ukmi04D8thwm35zOwFgNElAMfHZ7vLaX7zt7Ux"
-  uptime_hours: 0
-  fact_stomp_port: "61613"
-  physicalprocessorcount: 1
-  lsbdistrelease: "12.04"
-  ec2_block_device_mapping_swap: sda3
-  kernelrelease: "3.2.0-40-virtual"
-  ps: "ps -ef"
-  virtual: physical
-  rubysitedir: /opt/puppet/lib/site_ruby/1.8
-  domain: us-west-2.compute.internal
-  ec2_kernel_id: aki-fc37bacc
-  pe_patch_version: "2"
-  selinux: "false"
-  augeasversion: "0.10.0"
-  puppet_vardir: /var/opt/lib/pe-puppet
-  fact_is_puppetagent: "true"
-  ec2_instance_type: m1.small
-  architecture: amd64
-  netmask_lo: "255.0.0.0"
-  path: "/usr/bin:/bin:/usr/sbin:/sbin"
-  memorytotal: "1.61 GB"
-  ec2_block_device_mapping_root: /dev/sda1
-  osfamily: Debian
-  timezone: UTC
-  id: root
-  fact_stomp_server: "10.224.3.144"
-  ec2_security_groups: default
-  hardwaremodel: x86_64
   pe_major_version: "2"
-  kernelmajversion: "3.2"
-  is_virtual: "false"
-  lsbmajdistrelease: "12"
-  ipaddress_lo: "127.0.0.1"
-  ec2_local_ipv4: "10.224.3.144"
-  ec2_ami_id: ami-70f96e40
-  fact_is_puppetmaster: "true"
-  network_eth0: "10.224.3.128"
-  fact_is_puppetca: "true"
-  pe_version: "2.8.2"
-  fact_is_puppetconsole: "true"
-  uptime_seconds: 3037
-  hardwareisa: x86_64
-  macaddress_eth0: "22:00:0a:e0:03:90"
-  fact_puppetmaster_certname: "10.224.3.144"
-  processor0: "Intel(R) Xeon(R) CPU E5-2650 0 @ 2.00GHz"
-  operatingsystem: Ubuntu
-  operatingsystemrelease: "12.04"
-  macaddress: "22:00:0a:e0:03:90"
-  ec2_public_hostname: ec2-54-214-22-147.us-west-2.compute.amazonaws.com
+  ec2_kernel_id: aki-fc37bacc
+  swapfree: "860.91 MB"
+  id: root
+  swapsize: "896.00 MB"
+  domain: us-west-2.compute.internal
+  processorcount: "1"
